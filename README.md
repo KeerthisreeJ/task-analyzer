@@ -382,14 +382,14 @@ Currently, tasks aren't saved between sessions. Everything's in memory.
 
 I wrote 8 unit tests covering:
 
-✅ **Overdue tasks get high urgency** - Verified that overdue tasks score 95+  
-✅ **High importance tasks score well** - Importance 10/10 gives 80+ points  
-✅ **Quick wins are identified** - Tasks under 2 hours get 70+ effort score  
-✅ **Circular dependencies are caught** - A→B→C→A triggers an error  
-✅ **Invalid data doesn't crash** - Missing fields default to neutral scores  
-✅ **Blocking tasks get boosted** - Tasks blocking 2+ others score 75+  
-✅ **Strategies work differently** - Same task scores differently in each strategy  
-✅ **All scoring components work** - Each factor (urgency, importance, etc.) calculates correctly  
+ **Overdue tasks get high urgency** - Verified that overdue tasks score 95+  
+ **High importance tasks score well** - Importance 10/10 gives 80+ points  
+ **Quick wins are identified** - Tasks under 2 hours get 70+ effort score  
+ **Circular dependencies are caught** - A→B→C→A triggers an error  
+ **Invalid data doesn't crash** - Missing fields default to neutral scores  
+ **Blocking tasks get boosted** - Tasks blocking 2+ others score 75+  
+ **Strategies work differently** - Same task scores differently in each strategy  
+ **All scoring components work** - Each factor (urgency, importance, etc.) calculates correctly  
 
 **Run the tests:**
 ```bash
