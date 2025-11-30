@@ -6,14 +6,6 @@ A web application that helps you prioritize your tasks intelligently. Instead of
 
 ---
 
-##  The Problem This Solves
-
-We've all been there - you have 10 tasks on your plate, everything feels urgent, and you don't know where to start. Should you tackle that important project due next week, or knock out those quick tasks first? What about that task that's blocking your teammate?
-
-This app takes the guesswork out by looking at your tasks from multiple angles and telling you exactly what deserves your attention right now.
-
----
-
 ### What It Does
 
 **Input:** You give it your tasks with:
@@ -611,9 +603,6 @@ This project was created as part of an internship assignment. Feel free to learn
 - Thanks to the Singularium team for a thoughtful assignment that tests real problem-solving skills
 - The Django and DRF communities for excellent documentation
 
----
-
-**Final thought:** Priority is not about doing everything. It's about doing the right things at the right time. I hope this tool helps you figure out what "right" means for you. 🎯
 
 ---
 
